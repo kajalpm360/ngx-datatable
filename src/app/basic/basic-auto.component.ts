@@ -42,6 +42,7 @@ export class BasicAutoComponent {
 
   constructor() {
     this.fetch(data => {
+      debugger
       this.rows = data;
       setTimeout(() => {
         this.loadingIndicator = false;
